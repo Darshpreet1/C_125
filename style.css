@@ -1,0 +1,23 @@
+h3{
+    font-size:xx-large !important;
+    font-weight: 100;
+}
+
+.btn-info:hover{
+    background-color: red;
+}
+
+canvas{
+    animation-name: example;
+    animation-duration: 4s;
+    animation-iteration-count: infinite;
+}
+
+@keyframes example{
+    from{
+        box-shadow:1px 1px 36px cyan;
+    }
+    to{
+        box-shadow:1px 1px 36px black; 
+    }
+}
